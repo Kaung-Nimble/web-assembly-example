@@ -1,24 +1,17 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To compile JS file to wasm file (Js file are complied using pre-compiled javy)
+```
+(cd lib/plugins && ./javy build example.js -o example.wasm)
+```
 
-Things you may want to cover:
+To run wasm file from command line.
+```
+echo '{ "n": 2, "bar": "baz" }' | wasmtime index.wasm
+```
+Please note that you need to install wasmtime on you machine. https://wasmtime.dev/
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To test.
+Visit root path and append name param. The greeting message is generated from the WebAssembly code.
+```
+/?name=kaung
+```
