@@ -15,3 +15,9 @@ Visit root path and append name param. The greeting message is generated from th
 ```
 /?name=kaung
 ```
+
+### To check example implementation
+|File|Function|
+|---|----|
+| [app/controllers/home_controller.rb](https://github.com/Kaung-Nimble/web-assembly-example/blob/main/app/controllers/home_controller.rb) |Call function written in wasm |
+| [lib/plugins/example.js](https://github.com/Kaung-Nimble/web-assembly-example/blob/main/lib/plugins/example.js) | Implementation of Wasm file |
