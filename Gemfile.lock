@@ -198,6 +198,7 @@ GEM
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
     rake (13.2.1)
+    rb_sys (0.9.102)
     rdoc (6.7.0)
       psych (>= 4.0.0)
     regexp_parser (2.9.2)
@@ -234,6 +235,12 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    wasmtime (25.0.0)
+      rb_sys (~> 0.9.97)
+    wasmtime (25.0.0-aarch64-linux)
+    wasmtime (25.0.0-arm64-darwin)
+    wasmtime (25.0.0-x86_64-darwin)
+    wasmtime (25.0.0-x86_64-linux)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -271,6 +278,7 @@ DEPENDENCIES
   stimulus-rails
   turbo-rails
   tzinfo-data
+  wasmtime (~> 25.0)
   web-console
 
 RUBY VERSION

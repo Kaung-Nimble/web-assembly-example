@@ -66,6 +66,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-
+gem "wasmtime", "~> 25.0"
 
 gem "byebug", "~> 11.1", :groups => [:development, :test]
