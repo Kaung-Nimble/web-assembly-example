@@ -1,3 +1,5 @@
+> [!NOTE]
+> This is the test implementation of WebAssembly and Rails. The code design and other things are not considered.
 
 To compile JS file to wasm file (Js file are complied using pre-compiled javy)
 ```
